@@ -1,19 +1,94 @@
-/* CSS by Belen Felix */
-
-
-/* Color Palette:
-Deep black: #0D0D0D
-Dark gray: ##262626
-White: #F2F2F2
-Dark Pink: #8C6464
-Light Gray: #8C8B88
+    /* CSS by Belen Felix */
+    /* Color Palette:
+Soft beige (background): #F2EFEA
+Deep black (text): #1A1A1A
+Soft pink (accent): #F3C1CF
+White (cards/buttons): #FFFFFF
+Dark gray (borders): #262626
 
 */
-
-
-/* Global (base) MOBILE FIRST Styles */
-
-body {
-    background-color: #0d0d0d;
-    color: #f2f2f2;
-}
+    /* Global (base) MOBILE FIRST Styles */
+    
+    body {
+        background-color: #F2EFEA;
+        color: #1A1A1A;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /*  HEADER */
+    
+    header {
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 2px solid #F3C1CF;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: #1A1A1A;
+    }
+    /*  NAVIGATION  */
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: #1A1A1A;
+        padding: 0.4rem 1rem;
+        border: 1px solid #262626;
+        border-radius: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 3px 3px 0 #F3C1CF;
+        transition: 0.2s;
+    }
+    
+    nav a:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 5px 5px 0 #F3C1CF;
+    }
+    /*  MAIN  */
+    
+    main {
+        padding: 1.5rem;
+    }
+    
+    section {
+        margin-bottom: 2rem;
+    }
+    /* HEADINGS */
+    
+    h1,
+    h2 {
+        font-family: Georgia, "Times New Roman", serif;
+        border-bottom: 2px solid #F3C1CF;
+        display: inline-block;
+        padding-bottom: 0.2rem;
+    }
+    /* FOOTER */
+    
+    footer {
+        text-align: center;
+        padding: 1rem;
+    }
+    /*  MEDIA QUERY  */
+    
+    @media (min-width: 768px) {
+        nav ul {
+            flex-direction: row;
+            justify-content: center;
+        }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    }

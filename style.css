@@ -48,8 +48,9 @@ Dark gray (borders): #262626
         border: 1px solid #262626;
         border-radius: 20px;
         background-color: #FFFFFF;
-        box-shadow: 3px 3px 0 #F3C1CF;
+        box-shadow: 5px 5px 0 #F3C1CF;
         transition: 0.2s;
+        display: inline-block;
     }
     
     nav a:hover {
@@ -64,6 +65,25 @@ Dark gray (borders): #262626
     
     section {
         margin-bottom: 2rem;
+    }
+    
+    .button-link {
+        text-decoration: none;
+        color: #1A1A1A;
+        padding: 0.4rem 1rem;
+        border: 1px solid #262626;
+        border-radius: 999px;
+        background-color: #FFFFFF;
+        box-shadow: 3px 3px 0 #F3C1CF;
+        transition: 0.2s;
+        display: inline-block;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+    }
+    
+    .button-link:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 5px 5px 0 #F3C1CF;
     }
     /* HEADINGS */
     

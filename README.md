@@ -1,5 +1,11 @@
 # Felix Portfolio
-My first portfolio is a multi-page website dedicated to showing potential employers a general "about me", my projects, and my resume. 
+This project is a multi-page personal portfolio website built with HTML and CSS. It showcases my web development, design projects, resume, and creative work.
+
+## Pages
+- Home
+- About Me
+- Projects
+- Resume
 The HTML is semantic and validated. 
 There is CSS.
 There is no Javascript.

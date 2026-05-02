@@ -112,11 +112,6 @@ Dark gray (borders): #262626
             margin: 0 auto;
         }
     }
-    
-    .intro {
-        flex-direction: row;
-        align-items: center;
-    }
     /* INTRO SECTION */
     
     .intro {
@@ -133,4 +128,9 @@ Dark gray (borders): #262626
         border-radius: 50%;
         border: 2px solid #262626;
         box-shadow: 4px 4px 0 #F3C1CF;
+    }
+    
+    .intro {
+        flex-direction: row;
+        align-items: center;
     }
